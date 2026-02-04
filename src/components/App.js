@@ -1,18 +1,7 @@
-@@ -1,13 +1,49 @@
 import React, { useState, useEffect } from "react";
 
-import React from "react";
-import './../styles/App.css';
 
 const App = () => {
-  return (
-    <div>
-        {/* Do not remove the main div */}
-    </div>
-  )
-}
-
-export default App
  const [data, setData] = useState(null);
  const [loading, setLoading] = useState(false);
  const [error, setError] = useState(null);
